@@ -21,7 +21,7 @@ function App() {
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80')] bg-cover bg-center opacity-10 grayscale"></div>
         <div className="relative z-20 max-w-4xl mx-auto mt-10 animate-fade-in-up">
           <p className="text-highlight font-bold tracking-widest mb-5 text-sm md:text-base uppercase">Creative Studio & Media · AI Education</p>
-          <h1 className="text-5xl md:text-7xl font-bold mb-8 text-main tracking-tight">
+          <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold mb-8 text-main tracking-tight">
             <span className="block mb-2 leading-tight">지금 이 순간</span>
             <span className="block leading-tight">
               <span className="relative inline-block">
@@ -31,39 +31,39 @@ function App() {
               {' '}시작됩니다
             </span>
           </h1>
-          <p className="text-lg md:text-2xl text-sub mb-10 font-medium">영상으로 삶을 담고, AI로 가능성을 엽니다.<br /><strong className="text-main font-bold">Re:Frame</strong>은 창작과 배움이 만나는 공간입니다.</p>
+          <p className="text-base md:text-2xl text-sub mb-10 font-medium">영상으로 삶을 담고, AI로 가능성을 엽니다.<br /><strong className="text-main font-bold">Re:Frame</strong>은 창작과 배움이 만나는 공간입니다.</p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <a href="#video" className="inline-block bg-btn_bg text-btn_text font-semibold py-4 px-10 rounded-full hover:bg-highlight transition duration-300 shadow-lg">영상 제작 알아보기</a>
-            <a href="#education" className="inline-block bg-white text-main border border-main/10 font-semibold py-4 px-10 rounded-full hover:bg-gray-50 transition duration-300 shadow-lg">교육 과정 확인하기</a>
+            <a href="#video" className="inline-block bg-white text-main border border-main/10 font-semibold py-4 px-10 rounded-full hover:bg-gray-50 transition duration-300 shadow-lg">영상 제작 알아보기</a>
+            <a href="#education" className="inline-block bg-btn_bg text-btn_text font-semibold py-4 px-10 rounded-full hover:bg-highlight transition duration-300 shadow-lg">교육 과정 확인하기</a>
           </div>
         </div>
       </header>
 
-      <section id="video" className="py-24 px-6 bg-bg_white">
+      <section id="video" className="py-16 md:py-24 px-6 bg-bg_white">
         <div className="max-w-7xl mx-auto">
           <div className="mb-20 text-center md:text-left">
             <h3 className="text-highlight font-bold tracking-wider mb-2 text-sm uppercase">Production</h3>
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-main">영상제작 프로세스</h2>
+            <h2 className="text-2xl md:text-4xl font-bold mb-6 text-main">영상제작 프로세스</h2>
             <p className="text-xl text-sub max-w-2xl md:border-l-4 md:border-highlight md:pl-6 py-1 mx-auto md:mx-0 font-medium">단순한 기록을 넘어, <br className="md:hidden" />사람과 목적을 함께 담아내는 <br /><span className="text-main font-bold box-decoration-clone">기획 기반의 영상</span>을 만듭니다.</p>
           </div>
 
-          <div className="grid md:grid-cols-4 gap-6 mb-24">
-            <div className="bg-bg_cream p-8 rounded-2xl border border-main/5 hover:border-highlight transition group hover:-translate-y-2 duration-300 shadow-sm">
+          <div className="grid md:grid-cols-4 gap-4 md:gap-6 mb-24">
+            <div className="bg-bg_cream p-5 md:p-8 rounded-2xl border border-main/5 hover:border-highlight transition group hover:-translate-y-2 duration-300 shadow-sm">
               <div className="text-highlight text-5xl font-bold mb-4 opacity-40 group-hover:opacity-100 transition">01</div>
               <h4 className="text-xl font-bold mb-3 text-main">상담 및 기획</h4>
               <p className="text-[15px] text-sub leading-relaxed">목적과 대상 분석,<br />메시지 및 콘셉트 도출</p>
             </div>
-            <div className="bg-bg_cream p-8 rounded-2xl border border-main/5 hover:border-highlight transition group hover:-translate-y-2 duration-300 shadow-sm">
+            <div className="bg-bg_cream p-5 md:p-8 rounded-2xl border border-main/5 hover:border-highlight transition group hover:-translate-y-2 duration-300 shadow-sm">
               <div className="text-highlight text-5xl font-bold mb-4 opacity-40 group-hover:opacity-100 transition">02</div>
               <h4 className="text-xl font-bold mb-3 text-main">프리 프로덕션</h4>
               <p className="text-[15px] text-sub leading-relaxed">스토리 설계, 촬영 구성,<br />공간(로케이션) 선정</p>
             </div>
-            <div className="bg-bg_cream p-8 rounded-2xl border border-main/5 hover:border-highlight transition group hover:-translate-y-2 duration-300 shadow-sm">
+            <div className="bg-bg_cream p-5 md:p-8 rounded-2xl border border-main/5 hover:border-highlight transition group hover:-translate-y-2 duration-300 shadow-sm">
               <div className="text-highlight text-5xl font-bold mb-4 opacity-40 group-hover:opacity-100 transition">03</div>
               <h4 className="text-xl font-bold mb-3 text-main">프로덕션</h4>
               <p className="text-[15px] text-sub leading-relaxed">전문 장비 촬영<br />및 현장 디렉팅</p>
             </div>
-            <div className="bg-bg_cream p-8 rounded-2xl border border-main/5 hover:border-highlight transition group hover:-translate-y-2 duration-300 shadow-sm">
+            <div className="bg-bg_cream p-5 md:p-8 rounded-2xl border border-main/5 hover:border-highlight transition group hover:-translate-y-2 duration-300 shadow-sm">
               <div className="text-highlight text-5xl font-bold mb-4 opacity-40 group-hover:opacity-100 transition">04</div>
               <h4 className="text-xl font-bold mb-3 text-main">포스트 프로덕션</h4>
               <p className="text-[15px] text-sub leading-relaxed">편집, 색보정, 모션그래픽,<br />사운드 설계</p>
@@ -150,32 +150,32 @@ function App() {
         </div>
       </section>
 
-      <section id="education" className="py-24 px-6 bg-bg_cream">
+      <section id="education" className="py-16 md:py-24 px-6 bg-bg_cream">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h3 className="text-highlight font-bold tracking-wider mb-2 text-sm uppercase">Education</h3>
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-main">AI활용 & 영상제작 교육</h2>
+            <h2 className="text-2xl md:text-4xl font-bold mb-6 text-main">AI활용 & 영상제작 교육</h2>
             <p className="text-xl text-sub max-w-2xl mx-auto font-medium">"기술의 기능적 습득을 넘어, <br />올바른 가치관과 창의적 활용 능력을 함께 기릅니다."</p>
           </div>
           <div className="mb-10 border-l-4 border-highlight pl-4">
             <h3 className="text-2xl font-bold text-main">1. AI 기본 · 활용 과정</h3>
             <p className="text-sub mt-1">"누구나 이해할 수 있지만, 쉽게 잊히지 않는 AI 수업"</p>
           </div>
-          <div className="grid md:grid-cols-3 gap-6 mb-16">
-            <div className="bg-white rounded-2xl border border-main/5 p-8 hover:border-highlight transition flex flex-col h-full shadow-sm hover:shadow-lg duration-300">
+          <div className="grid md:grid-cols-3 gap-4 md:gap-6 mb-16">
+            <div className="bg-white rounded-2xl border border-main/5 p-5 md:p-8 hover:border-highlight transition flex flex-col h-full shadow-sm hover:shadow-lg duration-300">
               <div className="mb-4"><span className="bg-sub text-white text-xs font-bold px-2 py-1 rounded">B-1</span><h4 className="text-xl font-bold text-main mt-2">생성형 AI 이해 (기초)</h4></div>
               <p className="text-sm text-sub mb-6 min-h-[40px]">AI를 처음 접하는 분들도 부담 없이 시작할 수 있는 과정</p>
               <ul className="space-y-2 text-[15px] text-sub mb-6 flex-grow"><li className="flex items-start"><span className="text-highlight mr-2">•</span> 생성형 AI의 개념 이해</li><li className="flex items-start"><span class="text-highlight mr-2">•</span> ChatGPT 기본 사용법</li><li className="flex items-start"><span class="text-highlight mr-2">•</span> 질문 방식에 따른 결과 차이</li><li className="flex items-start"><span class="text-highlight mr-2">•</span> 실제 사례 활용 체험</li></ul>
               <div className="pt-5 border-t border-gray-100 text-xs bg-gray-50 -mx-8 -mb-8 p-6 rounded-b-2xl"><p className="mb-1"><strong className="text-main">✅ 대상:</strong> 초보자, 공무원, 시니어</p><p><strong className="text-main">✅ 목표:</strong> “AI가 어렵지 않다”는 경험</p></div>
             </div>
-            <div className="bg-white rounded-2xl border-2 border-highlight/30 p-8 hover:border-highlight transition flex flex-col h-full shadow-md relative overflow-hidden transform md:-translate-y-2">
+            <div className="bg-white rounded-2xl border-2 border-highlight/30 p-5 md:p-8 hover:border-highlight transition flex flex-col h-full shadow-md relative overflow-hidden transform md:-translate-y-2">
               <div className="absolute top-0 right-0 bg-highlight text-white text-[10px] px-3 py-1 rounded-bl-lg font-bold">인기</div>
               <div className="mb-4"><span className="bg-btn_bg text-white text-xs font-bold px-2 py-1 rounded">B-2</span><h4 className="text-xl font-bold text-main mt-2">생성형 AI 활용 (실습)</h4></div>
               <p className="text-sm text-sub mb-6 min-h-[40px]">기본 개념 이해 후, 내 일에 직접 활용해보는 단계</p>
               <ul className="space-y-2 text-[15px] text-sub mb-6 flex-grow"><li className="flex items-start"><span className="text-highlight mr-2">•</span> 문서 작성 및 기획 활용</li><li className="flex items-start"><span class="text-highlight mr-2">•</span> 이미지/시각 자료 제작</li><li className="flex items-start"><span class="text-highlight mr-2">•</span> 음악/영상 생성 기초 체험</li><li className="flex items-start"><span class="text-highlight mr-2">•</span> 미니 프로젝트 진행</li></ul>
               <div className="pt-5 border-t border-highlight/10 text-xs bg-orange-50/50 -mx-8 -mb-8 p-6 rounded-b-2xl"><p className="mb-1"><strong className="text-main">✅ 대상:</strong> 실무자, 강사, 창작자</p><p><strong class="text-main">✅ 목표:</strong> “내 일에 바로 써먹는 AI”</p></div>
             </div>
-            <div className="bg-white rounded-2xl border border-main/5 p-8 hover:border-highlight transition flex flex-col h-full shadow-sm hover:shadow-lg duration-300">
+            <div className="bg-white rounded-2xl border border-main/5 p-5 md:p-8 hover:border-highlight transition flex flex-col h-full shadow-sm hover:shadow-lg duration-300">
               <div className="mb-4"><span className="bg-sub text-white text-xs font-bold px-2 py-1 rounded">B-3</span><h4 className="text-xl font-bold text-main mt-2">AI 리터러시 (윤리)</h4></div>
               <p className="text-sm text-sub mb-6 min-h-[40px]">기능이 아닌 ‘태도와 기준’을 다루는 필수 과정</p>
               <ul className="space-y-2 text-[15px] text-sub mb-6 flex-grow"><li className="flex items-start"><span className="text-highlight mr-2">•</span> AI의 한계와 위험성</li><li class="flex items-start"><span class="text-highlight mr-2">•</span> 저작권 및 딥페이크 문제</li><li class="flex items-start"><span class="text-highlight mr-2">•</span> 책임 있는 AI 사용법</li><li class="flex items-start"><span class="text-highlight mr-2">•</span> 기술에 휘둘리지 않는 기준</li></ul>
