@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@config "../tailwind.config.mjs";
+
+body {
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+}
+
+details>summary {
+    list-style: none;
+}
+
+details>summary::-webkit-details-marker {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #FBF8F2;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2F5D50;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #A24B33;
+}
