@@ -127,9 +127,10 @@ function App() {
                     <img src="https://img.youtube.com/vi/3HBOg_MCHko/maxresdefault.jpg" className="w-full h-full object-cover hover:scale-105 transition duration-500" alt="Portfolio 6" />
                     <div className="absolute inset-0 flex items-center justify-center pointer-events-none"><span class="text-white text-3xl drop-shadow-lg">▶</span></div>
                   </a>
-                  <div className="aspect-video rounded-lg border-2 border-dashed border-main/10 flex items-center justify-center bg-bg_cream/50">
-                    <span className="text-sub/30 text-sm">추가 예정</span>
-                  </div>
+                  <a href="https://youtu.be/mCjiScOR_cY" target="_blank" rel="noreferrer" className="block aspect-video rounded-lg overflow-hidden border border-main/5 bg-gray-100 relative">
+                    <img src="https://img.youtube.com/vi/mCjiScOR_cY/maxresdefault.jpg" className="w-full h-full object-cover hover:scale-105 transition duration-500" alt="Portfolio 7" />
+                    <div className="absolute inset-0 flex items-center justify-center pointer-events-none"><span className="text-white text-3xl drop-shadow-lg">▶</span></div>
+                  </a>
                 </div>
               </div>
 
