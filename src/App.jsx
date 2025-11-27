@@ -271,7 +271,7 @@ function App() {
                   <p className="text-sm font-bold text-main mb-1">전북대학교 교육대학원 평생교육 및 HRD 전공</p>
                   <p className="text-xs text-sub/80">석사논문: 「디지털 리터러시 교육에서 중장년 여성의 학습동기와 학업적 열의의 관계」</p>
                 </div>
-                <ul className="space-y-1 text-sm text-sub leading-tight"><li className="flex items-center"><span className="w-1.5 h-1.5 bg-highlight rounded-full mr-2"></span> AICE(AI 활용능력) BASIC – KT & 한국경제신문</li><li className="flex items-center"><span class="w-1.5 h-1.5 bg-highlight rounded-full mr-2"></span> 사회복지사 1급 – 보건복지부</li><li className="flex items-center"><span class="w-1.5 h-1.5 bg-highlight rounded-full mr-2"></span> 평생교육사 2급 – 교육부</li></ul>
+                <ul className="space-y-1 text-sm text-sub leading-tight"><li className="flex items-center"><span className="w-1.5 h-1.5 bg-highlight rounded-full mr-2"></span> AICE(AI 활용능력) BASIC – KT & 한국경제신문</li><li className="flex items-center"><span className="w-1.5 h-1.5 bg-highlight rounded-full mr-2"></span> 사회복지사 1급 – 보건복지부</li><li className="flex items-center"><span className="w-1.5 h-1.5 bg-highlight rounded-full mr-2"></span> 평생교육사 2급 – 교육부</li><li className="flex items-center"><span className="w-1.5 h-1.5 bg-highlight rounded-full mr-2"></span> 디지털튜터 지도사 자격</li></ul>
               </div>
             </div>
           </div>
@@ -279,21 +279,23 @@ function App() {
           <div className="flex flex-col md:flex-row items-start md:items-center gap-12">
             <div className="w-full md:w-1/3 flex justify-center">
               <div className="w-64 h-64 rounded-full border-4 border-highlight/20 overflow-hidden relative shadow-xl">
-                <img src="/instructor_park_seonmi.jpg" alt="박선미 강사 프로필 사진" className="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500" />
+                <img src="/instructor_park_seonmi.jpg" alt="박선미 강사 프로필 사진" className="w-full h-full object-cover object-[center_20%] grayscale hover:grayscale-0 transition duration-500 scale-125 translate-y-2" />
               </div>
             </div>
             <div className="w-full md:w-2/3">
               <h3 className="text-highlight font-bold tracking-wider mb-2 text-sm uppercase">Instructor</h3>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-main">Re:Frame 전문 강사 박선미</h2>
-              <p className="text-sub leading-relaxed mb-8 text-base font-medium">영상 제작과 미디어 리터러시 교육을 아우르는 Re:Frame 강사 박선미입니다.<br />2008년부터 약 17년간 미디어 센터와 학교 현장에서 다양한 계층을 만나온 베테랑 강사입니다.<br />특히 현재 전라북도교육청 미디어 리터러시 강사로서 청소년들이 디지털 세상을 올바르게 이해하고 소통할 수 있도록 이끌고 있으며,<br /><span className="text-main font-bold border-b-2 border-highlight/30">단편영화 연출 경험을 녹여낸 생생한 영상 제작 교육으로 누구나 자신만의 이야기를 미디어에 담을 수 있도록 돕고 있습니다.</span></p>
+              <p className="text-sub leading-relaxed mb-8 text-base font-medium">영상 제작과 미디어 리터러시 교육을 아우르는 Re:Frame 강사 박선미입니다.<br />2008년부터 약 17년간 미디어 센터와 학교 현장에서 다양한 계층을 만나온 베테랑 강사입니다.<br />특히 현재 전라북도교육청 미디어 리터러시 강사로서<br />청소년들이 디지털 세상을 올바르게 이해하고 소통할 수 있도록 이끌고 있으며,<br /><span className="text-main font-bold border-b-2 border-highlight/30">단편영화 연출 경험을 녹여낸 생생한 영상 제작 교육으로<br />누구나 자신만의 이야기를 미디어에 담을 수 있도록 돕고 있습니다.</span></p>
               <div className="bg-bg_cream rounded-xl p-4 border-l-4 border-highlight inline-block md:min-w-[400px]">
                 <h4 className="font-bold text-main mb-3 text-sm">학력 및 자격</h4>
+                <div className="mb-4">
+                  <p className="text-sm font-bold text-main mb-1">원광대학교 사범대학 일어교육과 졸업</p>
+                </div>
                 <ul className="space-y-1 text-sm text-sub leading-tight">
-                  <li className="flex items-center"><span className="w-1.5 h-1.5 bg-highlight rounded-full mr-2"></span> 원광대학교 사범대학 일어교육과 졸업 (학사)</li>
                   <li className="flex items-center"><span className="w-1.5 h-1.5 bg-highlight rounded-full mr-2"></span> 중등교원 2급 정교사 – 교육부</li>
-                  <li className="flex items-center"><span className="w-1.5 h-1.5 bg-highlight rounded-full mr-2"></span> 디지털튜너 지도사 자격</li>
                   <li className="flex items-center"><span className="w-1.5 h-1.5 bg-highlight rounded-full mr-2"></span> 미디어 리터러시 강사 – 전북특별자치도교육청</li>
                   <li className="flex items-center"><span className="w-1.5 h-1.5 bg-highlight rounded-full mr-2"></span> 익산공공영상미디어센터 미디어교육 강사 (2008~현재)</li>
+                  <li className="flex items-center"><span className="w-1.5 h-1.5 bg-highlight rounded-full mr-2"></span> 디지털튜터 지도사 자격</li>
                 </ul>
               </div>
             </div>
