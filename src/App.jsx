@@ -279,7 +279,7 @@ function App() {
           <div className="flex flex-col md:flex-row items-start md:items-center gap-12">
             <div className="w-full md:w-1/3 flex justify-center">
               <div className="w-64 h-64 rounded-full border-4 border-highlight/20 overflow-hidden relative shadow-xl">
-                <img src="/instructor_park_seonmi.jpg" alt="박선미 강사 프로필 사진" className="w-full h-full object-cover object-[center_20%] grayscale hover:grayscale-0 transition duration-500 scale-125 translate-y-2" />
+                <img src="/instructor_park_seonmi_v2.jpg" alt="박선미 강사 프로필 사진" className="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500" />
               </div>
             </div>
             <div className="w-full md:w-2/3">
