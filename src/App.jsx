@@ -100,7 +100,7 @@ function App() {
                   </a>
                   <a href="https://youtu.be/cN6GpNamVqY" target="_blank" rel="noreferrer" className="block aspect-video rounded-lg overflow-hidden border border-main/5 bg-gray-100 relative">
                     <img src="https://img.youtube.com/vi/cN6GpNamVqY/maxresdefault.jpg" className="w-full h-full object-cover hover:scale-105 transition duration-500" alt="Portfolio 3" />
-                    <div className="absolute inset-0 flex items-center justify-center pointer-events-none"><span class="text-white text-3xl drop-shadow-lg">▶</span></div>
+                    <div className="absolute inset-0 flex items-center justify-center pointer-events-none"><span className="text-white text-3xl drop-shadow-lg">▶</span></div>
                   </a>
                 </div>
               </div>
@@ -111,11 +111,11 @@ function App() {
                 <div className="grid grid-cols-2 gap-4">
                   <a href="https://youtu.be/FugWT34moKU" target="_blank" rel="noreferrer" className="block aspect-video rounded-lg overflow-hidden border border-main/5 bg-gray-100 relative">
                     <img src="https://img.youtube.com/vi/FugWT34moKU/maxresdefault.jpg" className="w-full h-full object-cover hover:scale-105 transition duration-500" alt="Portfolio 4" />
-                    <div className="absolute inset-0 flex items-center justify-center pointer-events-none"><span class="text-white text-3xl drop-shadow-lg">▶</span></div>
+                    <div className="absolute inset-0 flex items-center justify-center pointer-events-none"><span className="text-white text-3xl drop-shadow-lg">▶</span></div>
                   </a>
                   <a href="https://youtu.be/hXY9X5arKek" target="_blank" rel="noreferrer" className="block aspect-video rounded-lg overflow-hidden border border-main/5 bg-gray-100 relative">
                     <img src="https://img.youtube.com/vi/hXY9X5arKek/maxresdefault.jpg" className="w-full h-full object-cover hover:scale-105 transition duration-500" alt="Portfolio 5" />
-                    <div className="absolute inset-0 flex items-center justify-center pointer-events-none"><span class="text-white text-3xl drop-shadow-lg">▶</span></div>
+                    <div className="absolute inset-0 flex items-center justify-center pointer-events-none"><span className="text-white text-3xl drop-shadow-lg">▶</span></div>
                   </a>
                 </div>
               </div>
@@ -126,7 +126,7 @@ function App() {
                 <div className="grid grid-cols-2 gap-4">
                   <a href="https://youtu.be/3HBOg_MCHko" target="_blank" rel="noreferrer" className="block aspect-video rounded-lg overflow-hidden border border-main/5 bg-gray-100 relative">
                     <img src="https://img.youtube.com/vi/3HBOg_MCHko/maxresdefault.jpg" className="w-full h-full object-cover hover:scale-105 transition duration-500" alt="Portfolio 6" />
-                    <div className="absolute inset-0 flex items-center justify-center pointer-events-none"><span class="text-white text-3xl drop-shadow-lg">▶</span></div>
+                    <div className="absolute inset-0 flex items-center justify-center pointer-events-none"><span className="text-white text-3xl drop-shadow-lg">▶</span></div>
                   </a>
                   <a href="https://youtu.be/mCjiScOR_cY" target="_blank" rel="noreferrer" className="block aspect-video rounded-lg overflow-hidden border border-main/5 bg-gray-100 relative">
                     <img src="https://img.youtube.com/vi/mCjiScOR_cY/maxresdefault.jpg" className="w-full h-full object-cover hover:scale-105 transition duration-500" alt="Portfolio 7" />
@@ -144,8 +144,8 @@ function App() {
             <div className="grid md:grid-cols-2 gap-6 text-left max-w-4xl mx-auto relative z-10">
               <div className="flex items-start bg-white/10 p-5 rounded-xl backdrop-blur-sm border border-white/5"><span className="text-highlight mr-4 text-xl">✓</span> <span className="text-gray-300">감성적이고 진정성 있는 영상 톤앤매너를 원하시는 분</span></div>
               <div className="flex items-start bg-white/10 p-5 rounded-xl backdrop-blur-sm border border-white/5"><span className="text-highlight mr-4 text-xl">✓</span> <span className="text-gray-300">사람 중심의 따뜻한 이야기를 담고 싶은 기관 및 개인</span></div>
-              <div className="flex items-start bg-white/10 p-5 rounded-xl backdrop-blur-sm border border-white/5"><span class="text-highlight mr-4 text-xl">✓</span> <span class="text-gray-300">단순 정보 전달이 아닌 ‘메시지’와 ‘울림’을 전하고 싶은 분</span></div>
-              <div className="flex items-start bg-white/10 p-5 rounded-xl backdrop-blur-sm border border-white/5"><span class="text-highlight mr-4 text-xl">✓</span> <span class="text-gray-300">지역, 교육, 사람의 가치를 콘텐츠로 기록하고 싶은 분</span></div>
+              <div className="flex items-start bg-white/10 p-5 rounded-xl backdrop-blur-sm border border-white/5"><span className="text-highlight mr-4 text-xl">✓</span> <span className="text-gray-300">단순 정보 전달이 아닌 ‘메시지’와 ‘울림’을 전하고 싶은 분</span></div>
+              <div className="flex items-start bg-white/10 p-5 rounded-xl backdrop-blur-sm border border-white/5"><span className="text-highlight mr-4 text-xl">✓</span> <span className="text-gray-300">지역, 교육, 사람의 가치를 콘텐츠로 기록하고 싶은 분</span></div>
             </div>
             <div className="mt-10 pt-8 border-t border-white/10 relative z-10"><p className="text-lg text-gray-400 italic font-medium">"Re:Frame은 기계적인 빠른 제작보다는,<br className="md:hidden" /> <span className="text-highlight font-bold not-italic">의미 있는 과정과 소통</span>을 더 중요하게 생각합니다."</p></div>
           </div>
@@ -167,21 +167,21 @@ function App() {
             <div className="bg-white rounded-2xl border border-main/5 p-5 md:p-8 hover:border-highlight transition flex flex-col h-full shadow-sm hover:shadow-lg duration-300">
               <div className="mb-4"><span className="bg-sub text-white text-xs font-bold px-2 py-1 rounded">B-1</span><h4 className="text-xl font-bold text-main mt-2">생성형 AI 이해 (기초)</h4></div>
               <p className="text-sm text-sub mb-6 min-h-[40px]">AI를 처음 접하는 분들도 부담 없이 시작할 수 있는 과정</p>
-              <ul className="space-y-2 text-[15px] text-sub mb-6 flex-grow"><li className="flex items-start"><span className="text-highlight mr-2">•</span> 생성형 AI의 개념 이해</li><li className="flex items-start"><span class="text-highlight mr-2">•</span> ChatGPT 기본 사용법</li><li className="flex items-start"><span class="text-highlight mr-2">•</span> 질문 방식에 따른 결과 차이</li><li className="flex items-start"><span class="text-highlight mr-2">•</span> 실제 사례 활용 체험</li></ul>
+              <ul className="space-y-2 text-[15px] text-sub mb-6 flex-grow"><li className="flex items-start"><span className="text-highlight mr-2">•</span> 생성형 AI의 개념 이해</li><li className="flex items-start"><span className="text-highlight mr-2">•</span> ChatGPT 기본 사용법</li><li className="flex items-start"><span className="text-highlight mr-2">•</span> 질문 방식에 따른 결과 차이</li><li className="flex items-start"><span className="text-highlight mr-2">•</span> 실제 사례 활용 체험</li></ul>
               <div className="pt-5 border-t border-gray-100 text-xs bg-gray-50 -mx-8 -mb-8 p-6 rounded-b-2xl"><p className="mb-1"><strong className="text-main">✅ 대상:</strong> 초보자, 공무원, 시니어</p><p><strong className="text-main">✅ 목표:</strong> “AI가 어렵지 않다”는 경험</p></div>
             </div>
             <div className="bg-white rounded-2xl border-2 border-highlight/30 p-5 md:p-8 hover:border-highlight transition flex flex-col h-full shadow-md relative overflow-hidden transform md:-translate-y-2">
               <div className="absolute top-0 right-0 bg-highlight text-white text-[10px] px-3 py-1 rounded-bl-lg font-bold">인기</div>
               <div className="mb-4"><span className="bg-btn_bg text-white text-xs font-bold px-2 py-1 rounded">B-2</span><h4 className="text-xl font-bold text-main mt-2">생성형 AI 활용 (실습)</h4></div>
               <p className="text-sm text-sub mb-6 min-h-[40px]">기본 개념 이해 후, 내 일에 직접 활용해보는 단계</p>
-              <ul className="space-y-2 text-[15px] text-sub mb-6 flex-grow"><li className="flex items-start"><span className="text-highlight mr-2">•</span> 문서 작성 및 기획 활용</li><li className="flex items-start"><span class="text-highlight mr-2">•</span> 이미지/시각 자료 제작</li><li className="flex items-start"><span class="text-highlight mr-2">•</span> 음악/영상 생성 기초 체험</li><li className="flex items-start"><span class="text-highlight mr-2">•</span> 미니 프로젝트 진행</li></ul>
-              <div className="pt-5 border-t border-highlight/10 text-xs bg-orange-50/50 -mx-8 -mb-8 p-6 rounded-b-2xl"><p className="mb-1"><strong className="text-main">✅ 대상:</strong> 실무자, 강사, 창작자</p><p><strong class="text-main">✅ 목표:</strong> “내 일에 바로 써먹는 AI”</p></div>
+              <ul className="space-y-2 text-[15px] text-sub mb-6 flex-grow"><li className="flex items-start"><span className="text-highlight mr-2">•</span> 문서 작성 및 기획 활용</li><li className="flex items-start"><span className="text-highlight mr-2">•</span> 이미지/시각 자료 제작</li><li className="flex items-start"><span className="text-highlight mr-2">•</span> 음악/영상 생성 기초 체험</li><li className="flex items-start"><span className="text-highlight mr-2">•</span> 미니 프로젝트 진행</li></ul>
+              <div className="pt-5 border-t border-highlight/10 text-xs bg-orange-50/50 -mx-8 -mb-8 p-6 rounded-b-2xl"><p className="mb-1"><strong className="text-main">✅ 대상:</strong> 실무자, 강사, 창작자</p><p><strong className="text-main">✅ 목표:</strong> “내 일에 바로 써먹는 AI”</p></div>
             </div>
             <div className="bg-white rounded-2xl border border-main/5 p-5 md:p-8 hover:border-highlight transition flex flex-col h-full shadow-sm hover:shadow-lg duration-300">
               <div className="mb-4"><span className="bg-sub text-white text-xs font-bold px-2 py-1 rounded">B-3</span><h4 className="text-xl font-bold text-main mt-2">AI 리터러시 (윤리)</h4></div>
               <p className="text-sm text-sub mb-6 min-h-[40px]">기능이 아닌 ‘태도와 기준’을 다루는 필수 과정</p>
-              <ul className="space-y-2 text-[15px] text-sub mb-6 flex-grow"><li className="flex items-start"><span className="text-highlight mr-2">•</span> AI의 한계와 위험성</li><li class="flex items-start"><span class="text-highlight mr-2">•</span> 저작권 및 딥페이크 문제</li><li class="flex items-start"><span class="text-highlight mr-2">•</span> 책임 있는 AI 사용법</li><li class="flex items-start"><span class="text-highlight mr-2">•</span> 기술에 휘둘리지 않는 기준</li></ul>
-              <div className="pt-5 border-t border-gray-100 text-xs bg-gray-50 -mx-8 -mb-8 p-6 rounded-b-2xl"><p className="mb-1"><strong className="text-main">✅ 대상:</strong> 학생, 교사, 시민</p><p><strong class="text-main">✅ 목표:</strong> “기술을 올바르게 쓰는 힘”</p></div>
+              <ul className="space-y-2 text-[15px] text-sub mb-6 flex-grow"><li className="flex items-start"><span className="text-highlight mr-2">•</span> AI의 한계와 위험성</li><li className="flex items-start"><span className="text-highlight mr-2">•</span> 저작권 및 딥페이크 문제</li><li className="flex items-start"><span className="text-highlight mr-2">•</span> 책임 있는 AI 사용법</li><li className="flex items-start"><span className="text-highlight mr-2">•</span> 기술에 휘둘리지 않는 기준</li></ul>
+              <div className="pt-5 border-t border-gray-100 text-xs bg-gray-50 -mx-8 -mb-8 p-6 rounded-b-2xl"><p className="mb-1"><strong className="text-main">✅ 대상:</strong> 학생, 교사, 시민</p><p><strong className="text-main">✅ 목표:</strong> “기술을 올바르게 쓰는 힘”</p></div>
             </div>
           </div>
 
@@ -189,9 +189,9 @@ function App() {
             <h4 className="font-bold text-main mb-4 md:mb-0 md:mr-6 whitespace-nowrap">📌 운영 방식 (공통)</h4>
             <div className="flex flex-wrap gap-4 justify-center md:justify-start text-sm text-sub font-medium">
               <span className="flex items-center"><span className="text-highlight mr-2">✔</span> 1~10회 기관 맞춤 설계</span>
-              <span className="flex items-center"><span class="text-highlight mr-2">✔</span> 이론+실습+토론 병행</span>
-              <span className="flex items-center"><span class="text-highlight mr-2">✔</span> PC/모바일 모두 가능</span>
-              <span className="flex items-center"><span class="text-highlight mr-2">✔</span> 난이도 조절 가능</span>
+              <span className="flex items-center"><span className="text-highlight mr-2">✔</span> 이론+실습+토론 병행</span>
+              <span className="flex items-center"><span className="text-highlight mr-2">✔</span> PC/모바일 모두 가능</span>
+              <span className="flex items-center"><span className="text-highlight mr-2">✔</span> 난이도 조절 가능</span>
             </div>
           </div>
 
@@ -202,11 +202,11 @@ function App() {
                 <div className="inline-block bg-highlight text-white text-xs font-bold px-3 py-1 rounded-full mb-4">Re:Frame Signature</div>
                 <h3 className="text-3xl font-bold text-white mb-4">2. 특화 과정 : AI 창작 수업</h3>
                 <p className="text-xl text-highlight italic mb-8 font-medium">“삶과 감정을 기술로 확장합니다.<br />기술로 나를 다시 만나는 경험을 선물하세요.”</p>
-                <ul className="space-y-3 text-gray-300 mb-8"><li className="flex items-start"><span className="text-highlight mr-2">✦</span> 나의 이야기, 기억, 공간, 감정을 AI로 시각화</li><li className="flex items-start"><span class="text-highlight mr-2">✦</span> 이미지 + 음악 + 영상 + 글을 결합한 스토리 생성</li><li className="flex items-start"><span class="text-highlight mr-2">✦</span> 나만의 작은 기록물 / 예술 프로젝트 제작</li><li className="flex items-start"><span class="text-highlight mr-2">✦</span> 사람 중심의 AI 활용과 깊이 있는 성찰</li></ul>
+                <ul className="space-y-3 text-gray-300 mb-8"><li className="flex items-start"><span className="text-highlight mr-2">✦</span> 나의 이야기, 기억, 공간, 감정을 AI로 시각화</li><li className="flex items-start"><span className="text-highlight mr-2">✦</span> 이미지 + 음악 + 영상 + 글을 결합한 스토리 생성</li><li className="flex items-start"><span className="text-highlight mr-2">✦</span> 나만의 작은 기록물 / 예술 프로젝트 제작</li><li className="flex items-start"><span className="text-highlight mr-2">✦</span> 사람 중심의 AI 활용과 깊이 있는 성찰</li></ul>
               </div>
               <div className="bg-white/5 p-8 rounded-2xl border border-white/10 backdrop-blur-md">
                 <h4 className="text-white font-bold mb-4 border-b border-white/20 pb-2">수강 추천 대상</h4>
-                <div className="flex flex-wrap gap-2 mb-6"><span className="bg-black/30 text-gray-200 text-xs px-3 py-1 rounded-full border border-white/10">창작자/예술가</span><span class="bg-black/30 text-gray-200 text-xs px-3 py-1 rounded-full border border-white/10">중장년 여성</span><span class="bg-black/30 text-gray-200 text-xs px-3 py-1 rounded-full border border-white/10">마을 활동가</span><span class="bg-black/30 text-gray-200 text-xs px-3 py-1 rounded-full border border-white/10">교육자</span></div>
+                <div className="flex flex-wrap gap-2 mb-6"><span className="bg-black/30 text-gray-200 text-xs px-3 py-1 rounded-full border border-white/10">창작자/예술가</span><span className="bg-black/30 text-gray-200 text-xs px-3 py-1 rounded-full border border-white/10">중장년 여성</span><span className="bg-black/30 text-gray-200 text-xs px-3 py-1 rounded-full border border-white/10">마을 활동가</span><span className="bg-black/30 text-gray-200 text-xs px-3 py-1 rounded-full border border-white/10">교육자</span></div>
                 <div className="mt-6"><a href="#contact" className="block w-full bg-btn_bg hover:bg-highlight text-white text-center font-bold py-3 rounded-xl transition shadow-lg">시그니처 과정 문의하기</a></div>
               </div>
             </div>
@@ -258,7 +258,7 @@ function App() {
           <div className="flex flex-col md:flex-row items-start md:items-center gap-12 mb-20 border-b border-main/5 pb-20">
             <div className="w-full md:w-1/3 flex justify-center">
               <div className="w-64 h-64 rounded-full border-4 border-highlight/20 overflow-hidden relative shadow-xl">
-                <img src="/profile.png" alt="박선례 대표 프로필 사진" className="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500" />
+                <img src="/profile_seonrye_v2.png" alt="박선례 대표 프로필 사진" className="w-full h-full object-cover object-center grayscale hover:grayscale-0 transition duration-500" />
               </div>
             </div>
             <div className="w-full md:w-2/3">
@@ -311,7 +311,7 @@ function App() {
           <div className="inline-flex flex-col md:flex-row gap-8 bg-white/5 p-10 rounded-3xl border border-white/10 backdrop-blur-sm shadow-2xl">
             <div className="text-left"><p className="text-xs text-highlight font-bold uppercase mb-2">Email</p><a href="mailto:contact@reframe.com" className="text-xl text-white font-medium hover:text-highlight transition">contact@reframe.com</a></div>
             <div className="hidden md:block w-px bg-white/10"></div>
-            <div className="text-left"><p class="text-xs text-highlight font-bold uppercase mb-2">Phone</p><a href="tel:010-0000-0000" className="text-xl text-white font-medium hover:text-highlight transition">010-0000-0000</a></div>
+            <div className="text-left"><p className="text-xs text-highlight font-bold uppercase mb-2">Phone</p><a href="tel:010-0000-0000" className="text-xl text-white font-medium hover:text-highlight transition">010-0000-0000</a></div>
           </div>
         </div>
       </section>
