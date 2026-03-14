@@ -315,7 +315,7 @@ export default function App() {
             </div>
             <div className="rounded-2xl overflow-hidden shadow-md">
               <img
-                src={`${import.meta.env.BASE_URL}character-collage.png`}
+                src={`${import.meta.env.BASE_URL}vibe-coding.jpg`}
                 alt="바이브 코딩 with Claude"
                 className="w-full h-56 object-cover"
               />
