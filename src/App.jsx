@@ -290,7 +290,7 @@ export default function App() {
             </div>
             <div className="overflow-hidden">
               <img
-                src="/character-collage.png"
+                src={`${import.meta.env.BASE_URL}character-collage.png`}
                 alt="AI 창작 수업"
                 className="w-full h-full object-cover min-h-[260px]"
               />
@@ -315,7 +315,7 @@ export default function App() {
             </div>
             <div className="rounded-2xl overflow-hidden shadow-md">
               <img
-                src="/character-collage.png"
+                src={`${import.meta.env.BASE_URL}character-collage.png`}
                 alt="바이브 코딩 with Claude"
                 className="w-full h-56 object-cover"
               />
