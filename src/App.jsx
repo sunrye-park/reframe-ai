@@ -117,7 +117,7 @@ export default function App() {
       {/* ── HERO ─────────────────────────────────────────────── */}
       <section className="relative min-h-screen flex items-center bg-bg_cream overflow-hidden">
         <NetworkCanvas />
-        <div className="relative z-10 max-w-6xl mx-auto px-8 pt-28 pb-20 animate-fade-in-up">
+        <div className="relative z-10 max-w-6xl mx-auto px-6 pt-28 pb-20 animate-fade-in-up">
 
           {/* 애니메이션 태그 목록 */}
           <div className="flex flex-wrap gap-2 mb-8">
@@ -141,13 +141,13 @@ export default function App() {
           </div>
 
           {/* 헤드라인 */}
-          <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-3 text-main">
+          <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-3 text-main">
             AI, 어렵지 않아요.
           </h1>
-          <h2 className="text-3xl md:text-5xl font-bold leading-tight mb-6">
+          <h2 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
             <span className="text-accent">천천히, 제대로 배우는</span> AI 교육.
           </h2>
-          <p className="text-sub text-lg mb-10">
+          <p className="text-sub text-xl mb-10">
             도구를 익히고, AI와 함께 생각하는 힘을 키웁니다.
           </p>
 
