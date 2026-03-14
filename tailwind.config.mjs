@@ -7,25 +7,28 @@ export default {
   theme: {
     extend: {
       colors: {
-        main: '#2B2B2B',
-        bg_cream: '#FBF8F2',
-        bg_white: '#FFFFFF',
-        btn_bg: '#2F5D50',
-        btn_text: '#FFFFFF',
-        highlight: '#A24B33',
-        sub: '#555555',
+        main: '#2D2B27',
+        bg_cream: '#FAF7F2',
+        bg_dark: '#2A2825',
+        accent: '#C05440',
+        sub: '#6B6560',
+        card_bg: '#F0EBE3',
       },
       animation: {
-        'fade-in-up': 'fadeInUp 1s ease-out'
+        'fade-in-up': 'fadeInUp 0.8s ease-out',
+        'fade-in': 'fadeIn 0.4s ease-out',
       },
       keyframes: {
         fadeInUp: {
           '0%': { opacity: '0', transform: 'translateY(20px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' }
+        },
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' }
         }
       }
     },
   },
   plugins: [],
 }
-
