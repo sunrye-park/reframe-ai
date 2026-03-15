@@ -8,11 +8,11 @@ export default {
     extend: {
       colors: {
         main: '#2D2B27',
-        bg_cream: '#FAF7F2',
+        bg_cream: '#FAFAFA',
         bg_dark: '#2A2825',
         accent: '#C05440',
         sub: '#6B6560',
-        card_bg: '#F0EBE3',
+        card_bg: '#F2F2F2',
       },
       animation: {
         'fade-in-up': 'fadeInUp 0.8s ease-out',

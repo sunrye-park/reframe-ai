@@ -103,12 +103,12 @@ function NetworkCanvas() {
     resize();
     window.addEventListener('resize', resize);
 
-    const dots = Array.from({ length: 50 }, () => ({
+    const dots = Array.from({ length: 55 }, () => ({
       x: Math.random() * canvas.width,
       y: Math.random() * canvas.height,
-      vx: (Math.random() - 0.5) * 0.35,
-      vy: (Math.random() - 0.5) * 0.35,
-      r: Math.random() * 2 + 1,
+      vx: (Math.random() - 0.5) * 0.4,
+      vy: (Math.random() - 0.5) * 0.4,
+      r: Math.random() * 4 + 2.5,
     }));
 
     const draw = () => {
@@ -130,8 +130,8 @@ function NetworkCanvas() {
             ctx.beginPath();
             ctx.moveTo(dots[i].x, dots[i].y);
             ctx.lineTo(dots[j].x, dots[j].y);
-            ctx.strokeStyle = `rgba(192, 84, 64, ${0.13 * (1 - dist / 160)})`;
-            ctx.lineWidth = 0.6;
+            ctx.strokeStyle = `rgba(192, 84, 64, ${0.28 * (1 - dist / 160)})`;
+            ctx.lineWidth = 1.0;
             ctx.stroke();
           }
         }
@@ -140,7 +140,7 @@ function NetworkCanvas() {
       dots.forEach(d => {
         ctx.beginPath();
         ctx.arc(d.x, d.y, d.r, 0, Math.PI * 2);
-        ctx.fillStyle = 'rgba(192, 84, 64, 0.22)';
+        ctx.fillStyle = 'rgba(192, 84, 64, 0.45)';
         ctx.fill();
       });
 
@@ -180,7 +180,7 @@ export default function App() {
   return (
     <div
       className="bg-bg_cream text-main antialiased"
-      style={{ fontFamily: "'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" }}
+      style={{ fontFamily: "'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" }}
     >
 
       {/* ── NAV ─────────────────────────────────────────────── */}
@@ -189,21 +189,23 @@ export default function App() {
           <a href="#" className="text-xl font-bold tracking-tight">
             Re:<span className="text-accent">Frame</span>
           </a>
-          <ul className="hidden md:flex items-center gap-8 text-sm font-medium text-main/75">
-            <li><a href="#about"     className="hover:text-accent transition">{t.nav.about}</a></li>
-            <li><a href="#education" className="hover:text-accent transition">{t.nav.education}</a></li>
-            <li><a href="#vibe"      className="hover:text-accent transition">{t.nav.vibe}</a></li>
-            <li><a href="#contact"   className="hover:text-accent transition">{t.nav.contact}</a></li>
-          </ul>
-          <div className="flex items-center gap-1">
-            <button
-              onClick={() => setLang('ko')}
-              className={`text-xs font-bold px-3 py-1.5 rounded-full transition ${lang === 'ko' ? 'bg-main text-white' : 'text-main/50 hover:bg-main/5'}`}
-            >KR</button>
-            <button
-              onClick={() => setLang('en')}
-              className={`text-xs font-bold px-3 py-1.5 rounded-full transition ${lang === 'en' ? 'bg-main text-white' : 'text-main/50 hover:bg-main/5'}`}
-            >EN</button>
+          <div className="flex items-center gap-6">
+            <ul className="hidden md:flex items-center gap-7 text-sm font-medium text-main/75">
+              <li><a href="#about"     className="hover:text-accent transition">{t.nav.about}</a></li>
+              <li><a href="#education" className="hover:text-accent transition">{t.nav.education}</a></li>
+              <li><a href="#vibe"      className="hover:text-accent transition">{t.nav.vibe}</a></li>
+              <li><a href="#contact"   className="hover:text-accent transition">{t.nav.contact}</a></li>
+            </ul>
+            <div className="flex items-center gap-1 border-l border-main/10 pl-5">
+              <button
+                onClick={() => setLang('ko')}
+                className={`text-xs font-bold px-3 py-1.5 rounded-full transition ${lang === 'ko' ? 'bg-main text-white' : 'text-main/50 hover:bg-main/5'}`}
+              >KR</button>
+              <button
+                onClick={() => setLang('en')}
+                className={`text-xs font-bold px-3 py-1.5 rounded-full transition ${lang === 'en' ? 'bg-main text-white' : 'text-main/50 hover:bg-main/5'}`}
+              >EN</button>
+            </div>
           </div>
         </div>
       </nav>
