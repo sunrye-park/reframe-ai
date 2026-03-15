@@ -126,12 +126,12 @@ function NetworkCanvas() {
           const dx = dots[i].x - dots[j].x;
           const dy = dots[i].y - dots[j].y;
           const dist = Math.sqrt(dx * dx + dy * dy);
-          if (dist < 160) {
+          if (dist < 220) {
             ctx.beginPath();
             ctx.moveTo(dots[i].x, dots[i].y);
             ctx.lineTo(dots[j].x, dots[j].y);
-            ctx.strokeStyle = `rgba(192, 84, 64, ${0.28 * (1 - dist / 160)})`;
-            ctx.lineWidth = 1.0;
+            ctx.strokeStyle = `rgba(192, 84, 64, ${0.18 * (1 - dist / 220)})`;
+            ctx.lineWidth = 0.8;
             ctx.stroke();
           }
         }
@@ -140,7 +140,7 @@ function NetworkCanvas() {
       dots.forEach(d => {
         ctx.beginPath();
         ctx.arc(d.x, d.y, d.r, 0, Math.PI * 2);
-        ctx.fillStyle = 'rgba(192, 84, 64, 0.45)';
+        ctx.fillStyle = 'rgba(192, 84, 64, 0.30)';
         ctx.fill();
       });
 
